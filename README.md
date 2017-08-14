@@ -5,13 +5,19 @@ The slot machine has three reels ,each with 4 symbols(rectangle,rhombus,issoscel
 symbols.Thus each reel can display total of 100 symbols.
 
 Player starts with 10 free tokens.
+
 To win the 3 times of his bet , he needs three shapes of same size.
+
 To win two times of his bet,he needs three similar shapes of any size.
+
 To win or loose nothing, he needs two similar shapes.
+
 otherwise he loose the game(three different shapes).
 
 Project consist of following files:-
+
 1.Shape.h,Shape.cpp:-  abstract class working as an interface.
+
  * Also overloads the << operator to print the string representation of shape object.
  
 2.Rectangle.h,Rectangle.cpp,Isosceles.h,Isosceles.cpp,RightTriangle.h,RightTriangle.cpp,Rhombus.h,Rhombus.cpp:-all inherit the Shape class 
@@ -57,6 +63,10 @@ Project consist of following files:-
              i. Generate random height h, 1<=h<=25.
              
              ii. let reel r point to a Rectangle of width w and height h.
+             
+    6. Souce.cpp
+    
+      Contains the main function to run slot machine also displays the string represenataion of the Rectangle.
              
              
     
